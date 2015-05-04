@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Z-Index Demo</title>
+    <Style>
+        .div1{width:200px; height: 200px; background-color: Yellow; border-color: black; border-width: 15; border-style: solid ; position:absolute;top: 50px; left: 50px; z-index: 0 }
+        .div2{width:200px; height: 200px; background-color: blue; border-color: black; border-width: 15; border-style: dashed ;position: absolute;top: 100px; left: 100px; z-index: 1; opacity:10;visibility: inherit }
+    </Style>
+</head>
+<body>
+<div >
+    <div class="div1"  >this is lower div </div>
+    <div class="div2">this is Upper Div  </div>
+</div>
+</body>
+</html>

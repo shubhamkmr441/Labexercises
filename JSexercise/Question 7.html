@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Div Color</title>
+   <script>
+    function mouseover()
+    {
+    document.getElementById("div1").style.background="red";
+    }
+    function mouseout()
+    {
+    document.getElementById("div1").style.background="blue";
+    }
+    </script>
+    <style>
+        .div1{width:200px; height: 200px; background-color: Yellow; border-color: black;  border-style: solid ; top: 50px; left: 50px;}
+    </style>
+</head>
+<body>
+<div id="div1" class="div1" onMouseOver="mouseover()" onMouseOut="mouseout()">
+   </div>
+</body>
+</html>

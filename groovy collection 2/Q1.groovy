@@ -1,7 +1,6 @@
-List l=[1,1,1,2,2,3,4,5,6,7,7,3,2,1]
+List l=[22,22,34,44,55,334,34,5,22,34,333,12,23,221,223]
 println l
 Set s= l as Set  
 println s
-
-l.unique() 
+l.unique()
 println l
